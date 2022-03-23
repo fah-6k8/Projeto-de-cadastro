@@ -27,7 +27,7 @@ namespace AplicacaoTesteFront
             }            
             i += 1;
             j = i.GetValueOrDefault();
-            if (txtCod.Text == "" || txtDesc.Text == "" || txtQuant.Text == "" || txtVal.Text == "")
+            if (txtCod.Text == "" || txtDesc.Text == "")
             {
                 lblErro.Visible = true;
             }
